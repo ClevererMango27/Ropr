@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36337D851C16355E0017463A /* jungle.png in Resources */ = {isa = PBXBuildFile; fileRef = 36337D841C16355E0017463A /* jungle.png */; };
 		3651BAF51C1520C4008F3CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651BAF41C1520C4008F3CA1 /* AppDelegate.swift */; };
 		3651BAF71C1520C4008F3CA1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3651BAF61C1520C4008F3CA1 /* GameScene.sks */; };
 		3651BAF91C1520C4008F3CA1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651BAF81C1520C4008F3CA1 /* GameScene.swift */; };
@@ -16,7 +17,8 @@
 		3651BB0E1C1520C5008F3CA1 /* RoprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651BB0D1C1520C5008F3CA1 /* RoprTests.swift */; };
 		3651BB191C1520C5008F3CA1 /* RoprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651BB181C1520C5008F3CA1 /* RoprUITests.swift */; };
 		3651BB271C15219B008F3CA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3651BB261C15219B008F3CA1 /* Launch Screen.storyboard */; };
-		3651BB291C1525AD008F3CA1 /* Water.png in Resources */ = {isa = PBXBuildFile; fileRef = 3651BB281C1525AD008F3CA1 /* Water.png */; };
+		36C0BD431C19101600504A3F /* Waterbetter.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C0BD421C19101600504A3F /* Waterbetter.png */; };
+		36C0BD451C19113100504A3F /* Char.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C0BD441C19113100504A3F /* Char.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36337D841C16355E0017463A /* jungle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jungle.png; path = ../../../../Desktop/jungle.png; sourceTree = "<group>"; };
 		3651BAF11C1520C4008F3CA1 /* Ropr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ropr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3651BAF41C1520C4008F3CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3651BAF61C1520C4008F3CA1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,7 +55,8 @@
 		3651BB181C1520C5008F3CA1 /* RoprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoprUITests.swift; sourceTree = "<group>"; };
 		3651BB1A1C1520C5008F3CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3651BB261C15219B008F3CA1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		3651BB281C1525AD008F3CA1 /* Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Water.png; path = ../../../../Desktop/Water.png; sourceTree = "<group>"; };
+		36C0BD421C19101600504A3F /* Waterbetter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Waterbetter.png; path = ../../../../Desktop/Waterbetter.png; sourceTree = "<group>"; };
+		36C0BD441C19113100504A3F /* Char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Char.png; path = ../../../../Desktop/Char.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +115,9 @@
 				3651BB261C15219B008F3CA1 /* Launch Screen.storyboard */,
 				3651BAFF1C1520C5008F3CA1 /* Assets.xcassets */,
 				3651BB041C1520C5008F3CA1 /* Info.plist */,
-				3651BB281C1525AD008F3CA1 /* Water.png */,
+				36C0BD421C19101600504A3F /* Waterbetter.png */,
+				36337D841C16355E0017463A /* jungle.png */,
+				36C0BD441C19113100504A3F /* Char.png */,
 			);
 			path = Ropr;
 			sourceTree = "<group>";
@@ -239,10 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3651BAF71C1520C4008F3CA1 /* GameScene.sks in Resources */,
-				3651BB291C1525AD008F3CA1 /* Water.png in Resources */,
 				3651BB001C1520C5008F3CA1 /* Assets.xcassets in Resources */,
 				3651BB271C15219B008F3CA1 /* Launch Screen.storyboard in Resources */,
+				36337D851C16355E0017463A /* jungle.png in Resources */,
 				3651BAFE1C1520C4008F3CA1 /* Main.storyboard in Resources */,
+				36C0BD431C19101600504A3F /* Waterbetter.png in Resources */,
+				36C0BD451C19113100504A3F /* Char.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ropr/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftlyDoIt.Ropr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,7 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ropr/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftlyDoIt.Ropr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,6 +502,7 @@
 				3651BB1F1C1520C5008F3CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3651BB201C1520C5008F3CA1 /* Build configuration list for PBXNativeTarget "RoprTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				3651BB221C1520C5008F3CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3651BB231C1520C5008F3CA1 /* Build configuration list for PBXNativeTarget "RoprUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +520,7 @@
 				3651BB251C1520C5008F3CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
